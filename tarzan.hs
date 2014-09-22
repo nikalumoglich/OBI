@@ -1,6 +1,5 @@
 import Data.List
 import Control.Monad
-import Debug.Trace
 
 stringToList :: String -> [Double]
 stringToList l = map (read) (words l)
